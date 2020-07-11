@@ -40,7 +40,9 @@ $ git init
 
 2.然后在git bash中执行如下语句：
 
-git remote add origin https://github.com/VinsonFu/mytest1.git
+git remote rm origin
+
+git remote add origin https://github.com/VinsonFu/mytest1.git(后面的链接在github新建的个人仓库里找)
 
 git push -u origin master
 
